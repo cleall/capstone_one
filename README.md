@@ -50,6 +50,8 @@ Go to Data Explorer and from Data folder expand the genres_original folder that 
 
 I wanted to experiment on my own with original data as you can see there are images and csv files available, so this time download genres_original folder which has the audio samples, to download you need a kaggle account and from download you only need the genres_original folder
 
+How I did it: https://www.youtube.com/watch?v=pjShazdItm8
+
 Once downloaded check if a folder named 'data' exists on the root of your uv environment if not create it, then move the genres_original folder with its contents to the data folder, once moved rename the genres_original folder to gtzan_ds. You have to end up with something like:
 
 data/
