@@ -37,10 +37,9 @@ may take more time
     Note: I would suggest to not re-install your drivers to not affect your system as in the past for some reason I had problems
     including driver installation, in the end it is just a suggestion, choose what works best for you
 
-You may want to check your RAM usage as audio samples are pre-processed in one go, when checking the notebooks you may want to
-assign None or force a garbage collection to unused variables, I kept them to go back whenever required I am just letting you
-know in advance so you can decide what to do, (RAM prices crazy bruh) searching for a course on optimization and fair resource
-usage looks reasonable
+While I was testing for reproducibility I realized memory usage exceeds available memory but at this point I do not have
+much time to investigate an reduce its usage as a lot of processing is going on I hope that this does not affect the reviews
+and come back and try to reduce ram usage
 
 #### Data
 
