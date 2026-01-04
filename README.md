@@ -146,7 +146,7 @@ Install project dependencies
     uv sync --locked
 ```
 
-Friendly reminder do not forget to add the gtzan data to the data folder with as
+Friendly reminder do not forget to add the gtzan data to the data folder as
 mentioned in [Data](#Data) section
 
 Video of how I did it: https://www.youtube.com/watch?v=3CwQoG5wZMg
