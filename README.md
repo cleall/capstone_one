@@ -122,11 +122,32 @@ Navigate to project folder capstone_one
     cd capstone_one
 ```
 
+Install python version for project using uv
+
+```bash
+uv python install 3.11
+```
+
+Create venv using previously installed python version
+
+```bash
+    uv venv --python 3.11
+```
+
+Activate the environment
+
+```bash
+    source .venv/bin/activate
+```
+
 Install project dependencies
 
 ```bash
     uv sync --locked
 ```
+
+Friendly reminder do not forget to add the gtzan data to the data folder with as
+mentioned in [Data](#Data) section
 
 #### Using train.py
 
