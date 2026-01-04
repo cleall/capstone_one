@@ -48,7 +48,7 @@ I got the data from [kaggle.com](https://www.kaggle.com/datasets/andradaolteanu/
 
 Go to Data Explorer and from Data folder expand the genres_original folder that is the data used, there you can find each genre and the audio samples in wav format
 
-I wanted to experiment on my own with original data as you can see there are images and csv files available, so this time download genres_original folder which has the audio samples
+I wanted to experiment on my own with original data as you can see there are images and csv files available, so this time download genres_original folder which has the audio samples, to download you need a kaggle account and from download you only need the genres_original folder
 
 Once downloaded check if a folder named 'data' exists on the root of your uv environment if not create it, then move the genres_original folder with its contents to the data folder, once moved rename the genres_original folder to gtzan_ds. You have to end up with something like:
 
