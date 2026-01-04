@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: music-classifier
+  labels:
+    app: music-classifier
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: music-classifier
+  template:
+    metadata:
+      labels:
+        app: music-classifier
+    spec:
+      containers:
+      - name: music-classifier
+        image: capstone_one_cleall:v1
+        imagePullPolicy: Never
+        env:
+        - name: PORT
+          value: "4444"
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "512m"
+            #ephemeral-storage: "1Gi"
+          limits:
+            memory: "1024Mi"
+            cpu: "1024m"
+        ports:
+        - containerPort: 4444
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 4444
+          initialDelaySeconds: 10
+          periodSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 4444
+          initialDelaySeconds: 8
+          periodSeconds: 5
+      automountServiceAccountToken: false
