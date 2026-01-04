@@ -169,6 +169,12 @@ Once ready you can execute the following from the root of your uv environment:
     uv run -m train_pipeline.train.py
 ```
 
+In case you get a ModuleNotFoundError: __path__ attribute not found on 'train_pipeline.train do:
+
+```bash
+    uv run -m train_pipeline.train
+```
+
 This is going to execute the training pipeline and process audio samples to create spectrograms of each music genre to use them later and train a model
 
 You are going to see some messages on the screen indicating what step of the pipeline is being executed
