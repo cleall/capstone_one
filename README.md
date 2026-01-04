@@ -149,6 +149,8 @@ Install project dependencies
 Friendly reminder do not forget to add the gtzan data to the data folder with as
 mentioned in [Data](#Data) section
 
+Video of how I did it: https://www.youtube.com/watch?v=3CwQoG5wZMg
+
 #### Using train.py
 
 Check:
