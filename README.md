@@ -165,12 +165,6 @@ Check:
 Once ready you can execute the following from the root of your uv environment:
 
 ```bash
-    uv run -m train_pipeline.train.py
-```
-
-In case you get a ModuleNotFoundError: __path__ attribute not found on 'train_pipeline.train do:
-
-```bash
     uv run -m train_pipeline.train
 ```
 
