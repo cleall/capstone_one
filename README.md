@@ -514,7 +514,7 @@ You should see how hpa is applied when load reaches the specified cpu utilizatio
 
 I divided the interaction in two segments
 
-In first part I just show that all the configuration has been applied to the kubernetes cluster and the metric server is up and running
+In first part I just show that all the configuration has been applied to the kubernetes cluster and the metrics server is up and running
 
   * Part one: https://www.youtube.com/watch?v=s11PMWGTc4g
 
